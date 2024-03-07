@@ -1,0 +1,19 @@
+plugins:
+  - '@trivago/prettier-plugin-sort-imports'
+
+singleQuote: true
+trailingComma: 'none'
+semi: false
+bracketSpacing: true
+arrowParens: 'avoid'
+printWidth: 110
+bracketSameLine: true
+endOfLine: 'crlf'
+
+importOrder:
+  - '^react$'
+  - '^[@]*[a-z0-9](.*)$'
+  - '^@/(.*)$'
+  - '^[.]+/(.*)$'
+importOrderSeparation: true
+importOrderSortSpecifiers: true

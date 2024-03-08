@@ -12,4 +12,3 @@ The app run in port 5173 by default
 - [ ] Video Slider
 - [ ] Layout with menu
 - [ ] Profile.
-

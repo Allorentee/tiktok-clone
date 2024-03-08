@@ -13,4 +13,3 @@
 ## Features.
 
 - Add initial config
-

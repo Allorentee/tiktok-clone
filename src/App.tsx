@@ -1,3 +1,4 @@
+
 import { Feed, Phone } from '@/components'
 
 export function App() {
@@ -6,4 +7,5 @@ export function App() {
       <Feed />
     </Phone>
   )
+
 }

@@ -1,8 +1,11 @@
 import { useEffect, useState } from 'react'
 
-import { Feed } from '@/types'
 import { getAllVideos } from '@/services/api'
-import { Video, VideoSlider } from './Feed.styles'
+
+import { VideoSlider } from './Feed.styles'
+import { Feed } from '@/types/feed'
+import { Video } from '..'
+
 
 export function Feed() {
   const [videos, setVideos] = useState<Feed[]>([])
@@ -11,9 +14,12 @@ export function Feed() {
     getAllVideos().then(setVideos)
   }, [])
 
-
-  return <VideoSlider>
-      {videos.map(video => <Video key={video.id} src={video.url} autoPlay muted loop></Video>)} 
-  </VideoSlider>
+  return (
+    <VideoSlider>
+      {videos.map(video => ( 
+          <Video key={video.id} video={video}></Video>
+      ))}
+    </VideoSlider>
+  )
 }
 

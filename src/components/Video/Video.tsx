@@ -1,3 +1,4 @@
+
 import { useEffect, useRef, useState } from 'react'
 
 import { Play } from '@/components/Icons'
@@ -37,5 +38,6 @@ export function Video({ video }: { video: Feed }) {
       <Play fill="#fff" playing={playing} />
     </VideoWrapper>
   )
+
 }
 

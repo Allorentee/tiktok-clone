@@ -1,3 +1,4 @@
+
 # Tik-Tok clone.
 
 ## Run proyect
@@ -9,6 +10,8 @@ The app run in port 5173 by default
 
 # Objectives.
 
+
 - [x] Video Slider
 - [ ] Layout with menu
 - [ ] Profile.
+

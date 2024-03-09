@@ -14,6 +14,7 @@ export const GlobalStyle = createGlobalStyle`
         display: grid;
         place-content: center;
         overflow: hidden;
+
     }
 
     #root {

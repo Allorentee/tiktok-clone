@@ -14,5 +14,6 @@ export const VideoStyled = styled('video')`
   inset: 0;
   aspect-ratio: 9/16;
   object-fit: cover;
+
 `
 

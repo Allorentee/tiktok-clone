@@ -13,6 +13,7 @@ export const GlobalStyle = createGlobalStyle`
         background-color: #22252b;
         display: grid;
         place-content: center;
+        overflow: hidden;
     }
 
     #root {

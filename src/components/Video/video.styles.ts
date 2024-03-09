@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const VideoWrapper = styled('div')`
+export const VideoWrapper = styled('section')`
   position: relative;
   max-width: 260px;
   min-height: 100%;

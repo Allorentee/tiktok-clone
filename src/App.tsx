@@ -1,5 +1,11 @@
-import { Phone } from '@/components'
+
+import { Feed, Phone } from '@/components'
 
 export function App() {
-  return <Phone />
+  return (
+    <Phone>
+      <Feed />
+    </Phone>
+  )
+
 }

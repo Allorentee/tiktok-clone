@@ -1,7 +1,16 @@
 
 # CHANGELOG
 
-## 9-3-2024 v.0.0.2
+## 9-3-2024 v.0.2.1
+
+## Features.
+
+- add videos on feed
+- change scaffolding
+- managment play and pause videos
+
+## 9-3-2024 v.0.1.0
+
 
 ## Features.
 

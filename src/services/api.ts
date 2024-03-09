@@ -1,5 +1,6 @@
 import feed from '@/data/feed.json'
-import { Feed } from '@/types'
+import { Feed } from '@/types/feed'
+
 
 export const getAllVideos = (): Promise<Feed[]> => {
   return new Promise(resolve => {

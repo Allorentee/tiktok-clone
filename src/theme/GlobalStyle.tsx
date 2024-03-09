@@ -1,4 +1,3 @@
-
 import { createGlobalStyle } from 'styled-components'
 
 export const GlobalStyle = createGlobalStyle`
@@ -14,6 +13,8 @@ export const GlobalStyle = createGlobalStyle`
         background-color: #22252b;
         display: grid;
         place-content: center;
+        overflow: hidden;
+
     }
 
     #root {
@@ -28,4 +29,3 @@ export const GlobalStyle = createGlobalStyle`
     display: none;
   }
 `
-

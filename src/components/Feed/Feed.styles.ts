@@ -1,8 +1,11 @@
 import styled from 'styled-components'
 
 export const VideoSlider = styled('section')`
-  position: relative;
-  inset: 0;
+
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+
   width: 260px;
   height: 562px;
   border-radius: 26px;

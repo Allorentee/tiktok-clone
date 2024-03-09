@@ -1,8 +1,9 @@
 import { useRef, useState } from 'react'
 
+import { Play } from '@/components/Icons'
 import { Feed } from '@/types/feed'
 
-import { VideoStyled } from './video.styles'
+import { VideoStyled, VideoWrapper } from './video.styles'
 
 export function Video({ video }: { video: Feed }) {
   const videoRef = useRef<HTMLVideoElement>(null)
@@ -14,6 +15,11 @@ export function Video({ video }: { video: Feed }) {
     setPlaying(prev => !prev)
   }
 
-  return <VideoStyled ref={videoRef} src={video.url} loop onClick={handlePlay}></VideoStyled>
+  return (
+    <VideoWrapper>
+      <VideoStyled ref={videoRef} src={video.url} loop muted onClick={handlePlay}></VideoStyled>{' '}
+      <Play fill="#fff" playing={playing} />
+    </VideoWrapper>
+  )
 }
 
